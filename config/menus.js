@@ -1,8 +1,23 @@
 export default [
   {
-    name: 'Dashboard',
+    name: 'Schedule',
     link: '/',
-    icon: 'fa-home',
+    icon: 'fa-calendar',
+  },
+  {
+    name: 'Course',
+    link: '/',
+    icon: 'fa-book',
+  },
+  {
+    name: 'Lecturer',
+    link: '/',
+    icon: 'fa-users',
+  },
+  {
+    name: 'Student',
+    link: '/',
+    icon: 'fa-graduation-cap',
   },
   {
     name: 'Users',
@@ -21,9 +36,4 @@ export default [
     }
     ]
   },
-  {
-    name: 'Settings',
-    link: '/settings',
-    icon: 'fa-cogs',
-  }
 ]
